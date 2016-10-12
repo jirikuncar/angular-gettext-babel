@@ -49,7 +49,7 @@ setup(
     data_files=[],
     entry_points={
         'babel.extractors': [
-            'angulargettext=angulargettext.extract:extract_angular_gettext',
+            'angulargettext=angulargettext.extract:extract_angular',
         ],
     },
 )
